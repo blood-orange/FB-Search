@@ -1,0 +1,7 @@
+use_frameworks!
+target ‘FB Search’ do
+    pod 'Alamofire', '~> 4.4'
+    pod 'SwiftyJSON'
+    pod "EasyToast"
+    pod "SwiftSpinner"
+end
