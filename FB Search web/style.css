@@ -1,0 +1,267 @@
+
+.header{
+    display: inline;
+}
+#FBSearch{
+    float: left;
+    font-size: 1.6em;
+    color: rgba(20, 75, 129, 0.99);
+    font-weight: 400;
+    margin-left: 3%;
+    margin-top: 5px;
+    padding-top: 0.1em;
+
+}
+
+
+.input-group{
+    margin: 0px auto;
+    display: inline-flex;
+    width:60%;
+
+}
+
+.input-group-btn{
+    text-align: center;
+
+}
+.glyphicon.glyphicon-search{
+
+    color: white
+}
+
+ #search{
+    background-color: rgba(20, 75, 129, 0.99)
+
+}
+
+#clear{
+    margin-left: 30px;
+    color: rgba(20, 75, 129, 0.99);
+}
+
+.container{
+    width:100%;
+    margin-left:0px;
+    margin-right:0px;
+    padding-left: 0px;
+    padding-right:0px;
+
+}
+
+ul{
+    width:100%;
+    color: black;
+}
+li{
+    text-align: center;
+    color:white;
+}
+li.col-md-2{
+    padding: 0;
+}
+
+
+.link{
+    color:black;
+
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-pills > li.active > a:hover {
+    background-color: #3b5998;
+    color: white;
+    border-radius: 1px;
+}
+
+
+.nav-tabs {
+    border-bottom: thin solid #3b5998;
+}
+
+#table{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+.usrphoto{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+
+#turn{
+    text-align: center;
+    margin:0 auto;
+}
+
+.btn-default{
+    background-color: white;
+    border:1px solid grey;
+    margin-right: 2%;
+
+}
+
+#previous,#next{
+    width:8%;
+}
+
+.btn.btn-default.col-md-2.col-sm-2.text-center{
+    border-radius: 0 !important;
+}
+.progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+
+#details{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+
+}
+
+#options{
+    margin-bottom: 20px;
+    width:100%;
+    display: inline-block;
+}
+.panel.panel-default{
+
+    margin-bottom: 5px;
+
+
+}
+
+.center{
+    text-align: center;
+}
+
+.glyphicon-star{
+    color: #FFD300;
+}
+
+.albumlink{
+    color: #333;
+
+}
+
+ a.albumlink:visited{
+    color: #3b5998;
+}
+
+a.albumlink:focus{
+    color: #3b5998;
+}
+
+a.albumlink:hover{
+    color: #3b5998;
+}
+
+.albumphotos{
+    margin-bottom: 20px;
+}
+
+.postheader{
+    display: inline-flex;
+
+}
+
+.postphoto{
+    height:40px;
+    width:40px;
+    margin-right: 15px;
+}
+
+.postname{
+    font-size: 0.8em;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+
+
+#details{
+    transition: 0.5s linear all;
+}
+
+#details.ng-hide {
+    transform: translateX(-100%);
+}
+
+#details.ng-hide-add {
+    transition: 0s linear all;
+}
+
+
+#showThis{
+    transition: 0.5s linear all;
+}
+
+#showThis.ng-hide {
+    transform: translateX(100%);
+}
+
+#showThis.ng-hide-add {
+    transition: 0s linear all;
+}
+
+
+
+
+
+
+
+.time{
+    font-size: 0.8em;
+    color: #848484;
+}
+
+@media only screen and (max-width: 736px) {
+    .input-group{
+        margin-left: 25px;
+    }
+    .label.col-md-4.col-sm-4.col-xs-12 {
+        border-bottom: 1px solid #bfbfbf;
+
+    }
+    .mybtn.col-md-8.col-sm-8.col-xs-12{
+        margin-top: 8px;
+    }
+    #searchbar{
+        width:200px;
+    }
+    li.col-md-2.col-md-2.col-xs-12.active > a{
+        background-color: #3b5998;
+        color: white;
+        border-radius: 1px;
+    }
+    #table{
+        margin-left: 4%;
+        margin-right: 4%;
+        border: 2px solid #f8f8f8;
+        overflow-x:auto;
+        white-space: nowrap;
+
+    }
+    .nav>li>a{
+        padding: 1px;
+    }
+
+    #previous,#next{
+        width:28%;
+        text-align: center;
+        margin-right: 5%;
+    }
+
+}
+
+.progress {
+    margin: 15% 10% 20% 10% ;
+}
+
+.detail.progress{
+    margin: 5% ;
+}
+
